@@ -8,7 +8,7 @@ Using the original tag and Ubuntu Server 18.10 use the following commands:
 ```bash
 sudo apt-get install csh make gcc
 
-git clone https://github.com/jcmcbeth/swr2.git
+git clone https://github.com/jcmcbeth/Planets-Galactic-Empires.git
 cd swr2/swr-2.0/src
 
 make all
