@@ -1,5 +1,5 @@
 # Planets: Galactic Empires
-This is a version of SWR 2.0 that I had worked on between 2004 and 2005. I don't have a lot of details about this or even the complete source code. I am also not even sure if the name is correct.
+This is a version of SWR 2.0 that I had worked on between 2004 and 2005 run by Zakul. I don't have a lot of details about this or even the complete source code. I am also not even sure if the name is correct.
 
 What I did was take the stock SWR 2.0 and I am going to try to merge in my changes (or completely forget this exists again). My unmerged changes will be in old_src.
 
