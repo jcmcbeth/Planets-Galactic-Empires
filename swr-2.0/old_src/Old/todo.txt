@@ -1,0 +1,25 @@
+CLANS
+- add a clnset command to edit clan values
+- add a clstatus command to show clan stats
+- add a clcreate command to create a clan
+- add a clremove command to remove a clan
+- have a more accurate count of the members
+- add a found command to found a clan
+- add a support command to support a clan to be founded
+- add a clandescription command
+- add a system for keeping up with how active clan members are
+BUGS
+- fix the bug with quiting in lounges
+- fix possible bug where hauling an asteroid and doing a copyover causes it to fail doing a copyover
+- fix the bug where aliens try to attack mobs they are already attacking
+SCRIPTS
+- write a script to upgrade from the test version
+- write a script to make a backup of the current version and the test version by date and time
+- player wipe script
+- planet wipe script
+- clan wipe script
+MOBS
+- have smugglers spawn automatically
+SYSTEM
+- make it log by date and startup time
+- fix the log spam when two instances of the mud are run on the same port

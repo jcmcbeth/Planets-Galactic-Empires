@@ -1,0 +1,29 @@
+- fixed a bug with appoint where you could appoint any player reguardless of their clan status
+- reimplemented demote
+- fixed a bug where you could empower people with powers you don't have
+- modified empower so you can remove powers
+- fixed a bug with empower that allowed you to empower a person several times with the same power
+- added the ability to give all powers using empower with one argument
+- added the war empowerment
+- added a grace period for declaring war on a clan
+- fixed a bug where you could set a negative salary
+- added a wages empowerment
+- fixed formatting error in the command title
+- added the outcast empowerment
+- fixed a bug with outcast where you can outcast other leaders
+- updated setclan to edit member data
+- modifed setclan so the arguments weren't case sensative
+- updated mset's adding and removing members
+- updated mstat to show new member data
+- updated showclan to show a clan's activity and age
+- removed the obselete makeclan command
+- updated clans to show all clans activity
+- disabled bestow
+- removed the empty command bestowarea
+- added a clanmembers command
+- updated clans to show activities
+- fixed a bug in addpilot where you could add yourself as a pilot or copilot
+- fixed a bug in addpilot where you could set the same person as pilot and copilot
+- fixed a bug in addpilot where clan leaders were not treated like owners of clan ships
+- fixed a bug in rempilot where clan leaders were not treated like owners of clan ships
+- modified rempilot so when a pilot is removed the copilot becomes the pilot

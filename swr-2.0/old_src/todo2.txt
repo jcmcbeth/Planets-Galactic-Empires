@@ -1,0 +1,5 @@
+- add a carriage return '/r' to the editor
+- add a config noinduct
+- fix a bug with space combat so it logs when you die when your ship is destroyed
+- make sure the db properly loads long ints from file
+- make it so certain commands wont interupt skills

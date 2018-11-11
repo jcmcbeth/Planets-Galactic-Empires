@@ -1,0 +1,16 @@
+- modify do_speed, do_calculate, do_land, for the new safety energy buffer
+- make sure do_landship turns off shields when it lands
+- make sure do_landship gets rid of chaff
+- update do_land and do_hyper to loose targets
+
+- log large money transactions
+- set an option to enable/disable in do_log
+- add to system_data a flag to save transaction logs
+
+- set a flag variable for system_data
+
+02/10/04, by Borg,
+- implement clan_name_valid()
+- implement same_host()
+- implement do_clanstatus()
+- implement do_clanset()

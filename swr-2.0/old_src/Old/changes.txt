@@ -1,0 +1,51 @@
+- Added the ROOM_CLANONLY and ROOM_STORAGE flags
+- Implemented ROOM_STORAGE in do_landscape and clear_room_flags or whatever its called
+- Implmented PLANET_CRAPY flag
+- Improved planet flags
+- Changed the amount of money you earn from killing a mobship equal to its maxhull
+- Fixed the bug with ships always loosing energy
+- Ships no longer explode when they have 0 energy or less
+- Implemnted do_bomb
+- Put find_range in space.c and put it in functions that required the range to be found
+- do_bomb now works correctly
+- lightsabers don't get an effect that adds to parry
+- redid some flag utility functions
+- added flags to systems and added the no asteroid flag
+- asteroids spawn in all systems
+- you can give ships to clans
+
+08/09/04, by Borg,
+- added the commands unloadship and loadship
+- added the ship_from_hangar function to return a ship given a ROOM_INDEX_DATA if the room is a hangar
+
+08/10/04, by Borg,
+- renamed and redid check_pilot, it is now check_ship_pilot
+- added check_ship_owner, to check if the character is a owner, not just a pilot
+- fixed unloadship and loadship
+
+08/11/04, by Borg,
+- fixed a bug with target where you could targed while cloak
+- fixed a bug in do_autorecharge where you could recharge your shields with 0 energy and actually have infinite shields and gain energy
+- fixed a bug in unloadship where you could unload a ship while not docked
+- changed get_taxes and max_population to a better alogorithm
+- can't quit while stunned now
+
+02/07/05, by Borg,
+- updated hail to not use your level to calculate the cost, it now cost 50 credits
+- added cheat detection code
+- updated mstat to show how much money is in a player's bank
+- fixed an error in mob ship bounties
+- optimized ship updates
+- added a warning if you are low on energy while cloaked
+- added features to protect you from going below 5% energy in ships when cloaking and using shields
+- When you run low on energy your shields are not lowered anymore, just auto recharge is disabled
+
+02/09/05, by Borg,
+- fixed a bug where asteroids would not spawn in all the systems
+- each system can hold a maximum of 8 asteroids instead of 15
+
+02/10/05, by Borg,
+- fixed a bug with mstat where it showed the incorrect value for a person's bank
+- added a clandescription command for setting a clan descriptoin
+- added a support command for supporting a clan
+- added a found command for creating clans

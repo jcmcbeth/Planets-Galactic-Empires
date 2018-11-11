@@ -1,0 +1,11 @@
+- update planets, add in revolts
+- create a list library
+- add censoring to planet/clan names and talking
+- update output of show commands
+- added changes/bug/todo buglist
+- change areas to used swr 2 extensible format
+- add in configuration files
+- add security roles
+- implement new ship system
+- implement new planet system
+- implement new space system

@@ -1,0 +1,17 @@
+- Rewrote the algorithm for calculating how much shields are drained.
+- You will not be allowed to perform an action that will take you below less than 5% fuel.
+- Shields will no longer drop if you do not have enough power, the will drain as if autorecharge was off.
+- A warning is now displayed if cloaking is about to fail because of low energy.
+
+02/07/05, by Borg,
+- added logging to most money transactions that are larger than the value set to LARGE_TRANSACTION
+- do_mstat now will now display how much money is in a pc's bank
+- fixed an error in destroy_ship in the part where bounty is calculated, what was there just didn't make sense
+- made it so when you use do_autorecharge and do_recharge it wont work if it will go below your energy buffer
+
+02/09/05, by Borg,
+- fixed a bug where asteroids were originally designed to be in one system so MAX_ASTEROIDS was for the entire
+  galaxy.  Now it applies to how many asteroids can be in a system.
+
+02/10/05, by Borg,
+- fixed a mistake in mstat where ch was used instead of victim when getting how much was in a player's bank
